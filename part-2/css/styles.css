@@ -26,4 +26,38 @@ figure {
 .film {
   width: 50%;
   margin: 40px auto;
+  position: relative;
+  border: 2px solid grey;
+  clear: both;
+}
+
+img {}
+
+.action-watch-later {
+    color: red;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+figure.film-poster {
+    position: relative;
+    float: left;
+    width: 50%;
+}
+
+.action-like {
+    /* float: right; */
+    color: red;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.film-details {
+    position: absolute;
+    right: 30px;
+    /* float: left; */
+    clear: left;
+    width: 45%;
+    top: 10px;
 }
